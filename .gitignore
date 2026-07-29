@@ -1,0 +1,46 @@
+# =========================================================
+# .gitignore for sundari-backend (Django)
+# =========================================================
+
+# Environment Variables — NEVER commit real secrets
+.env
+.env.local
+.env.*.local
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Virtual Environment
+venv/
+.venv/
+env/
+ENV/
+
+# Django
+*.sqlite3
+db.sqlite3
+staticfiles/
+mediafiles/
+media/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# Logs
+*.log
+
+# Coverage
+.coverage
+htmlcov/
